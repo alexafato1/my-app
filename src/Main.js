@@ -1,7 +1,7 @@
-import React from 'react'
+import React,{useEffect, useState} from 'react'
 import Video from './Video'
-
 import {db} from './firebase'
+
 
 
 
