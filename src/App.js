@@ -1,19 +1,15 @@
-import React from 'react';
-import Video from './Video'
+import React,{useState, useEffect} from 'react';
+import Home from './Home'
 
-import './App.css';
-import Header from './Header.js'
+
 
 function App() {
 
+
   return (
-    <div className='app'>
-      <h1>Hello! I am tik-tok</h1>
-    <div className="app__videos">
-     <Video/>
-     <Video/>
-     <Video/>
-    </div>
+    <div >
+      <Home/>
+  
     </div>
   );
 }
